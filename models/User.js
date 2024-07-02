@@ -12,6 +12,12 @@ password:{
 username:{
     type:String,
     
+},
+resetToken: {
+    type: String
+},
+resetTokenExpiration: {
+    type: Date
 }
 });
 module.exports=mongoose.model("user" , userSchema);
